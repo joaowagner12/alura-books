@@ -83,3 +83,29 @@
     height: 46%;
     width: 46%;
 }
+
+@media screen and (min-width: 1024px) {
+
+    .carrossel__titulo {
+        font-size: 26px;
+    }
+
+    .swiper-pagination {
+        margin: 2em 0 3em 0;
+    }
+
+    .swiper {
+        width: 65%;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+        display: block;
+        top: 55%;
+    }
+
+    .card {
+        width: 45%;
+        margin: 1.5em auto;
+    }   
+    
+}
